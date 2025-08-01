@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "index.mjs",
   "scripts": {
-    "dev": "node index.mjs",
+    "dev": "node index.mjs"
   },
   "dependencies": {
     "@hono/node-server": "^1.18.0",
