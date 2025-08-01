@@ -46,4 +46,7 @@ app.get('/events', (c) => {
     return c.body(stream)
 })
 
-serve(app)
+serve({
+    fetch: app.fetch,
+    overrideGlobalObjects: false,
+})
